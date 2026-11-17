@@ -30,7 +30,7 @@ function showWebInfo() {
   currentView = 'webinfo';
   $('homeView').style.display = 'none';
   if ($('hospitalHero')) $('hospitalHero').style.display = 'none';
-  ['dashboardView','lifelineView','radarView','JanvaniView'].forEach(id => { if ($(id)) $(id).classList.remove('show'); });
+  ['dashboardView','lifelineView','radarView','JanvaniView','emergencyView'].forEach(id => { if ($(id)) $(id).classList.remove('show'); });
   $('webInfoView').classList.add('show');
   renderNav();
   renderWebInfoFinder(webInfoLastQuery);

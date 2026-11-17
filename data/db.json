@@ -3333,5 +3333,809 @@
       "adminNote": ""
     }
   ],
-  "jaanvaniFeedback": []
+  "jaanvaniFeedback": [],
+  "ambulances": [
+    {
+      "id": "AMB-BLR-01",
+      "regNumber": "KA-01-EA-4412",
+      "city": "Bengaluru",
+      "type": "ALS (Advanced Life Support)",
+      "hospitalAffiliation": "Greenview Multispecialty Hospital",
+      "hospitalId": 1,
+      "driver": "Ramesh Kumar",
+      "paramedic": "Nurse Priya S.",
+      "phone": "+91 98765 43210",
+      "status": "Available",
+      "speedKmH": 0,
+      "fuelPercent": 92,
+      "equipment": [
+        "Ventilator",
+        "Defibrillator",
+        "Oxygen Port (1000L)",
+        "Multipara Monitor",
+        "Syringe Infusion Pump"
+      ],
+      "location": {
+        "name": "Indiranagar 100ft Road",
+        "lat": 12.9716,
+        "lng": 77.6412
+      },
+      "etaMinutes": 4,
+      "assignedSosId": null,
+      "updatedAt": "2026-11-17T05:40:34.042Z"
+    },
+    {
+      "id": "AMB-BLR-02",
+      "regNumber": "KA-03-MB-8891",
+      "city": "Bengaluru",
+      "type": "ALS (Advanced Life Support)",
+      "hospitalAffiliation": "Lakeside General Hospital",
+      "hospitalId": 4,
+      "driver": "Suresh Gowda",
+      "paramedic": "Paramedic Anand V.",
+      "phone": "+91 98765 43211",
+      "status": "Available",
+      "speedKmH": 0,
+      "fuelPercent": 84,
+      "equipment": [
+        "Ventilator",
+        "ECG Monitor",
+        "Emergency Suction",
+        "Oxygen Cylinders"
+      ],
+      "location": {
+        "name": "MG Road Junction",
+        "lat": 12.975,
+        "lng": 77.609
+      },
+      "etaMinutes": 6,
+      "assignedSosId": null,
+      "updatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "AMB-BLR-03",
+      "regNumber": "KA-05-TR-2204",
+      "city": "Bengaluru",
+      "type": "BLS (Basic Life Support)",
+      "hospitalAffiliation": "Pinegrove Oncology Centre",
+      "hospitalId": 9,
+      "driver": "Mahesh Reddy",
+      "paramedic": "Nurse Sunita K.",
+      "phone": "+91 98765 43212",
+      "status": "Available",
+      "speedKmH": 0,
+      "fuelPercent": 78,
+      "equipment": [
+        "Basic Oxygen",
+        "First Aid Trauma Kit",
+        "Stretcher Trolley",
+        "Automated External Defibrillator"
+      ],
+      "location": {
+        "name": "Whitefield Main Road",
+        "lat": 12.9698,
+        "lng": 77.7499
+      },
+      "etaMinutes": 8,
+      "assignedSosId": null,
+      "updatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "AMB-MUM-01",
+      "regNumber": "MH-01-CR-9021",
+      "city": "Mumbai",
+      "type": "ALS (Advanced Life Support)",
+      "hospitalAffiliation": "St. Anne's Care Centre",
+      "hospitalId": 2,
+      "driver": "Pradeep Patil",
+      "paramedic": "Dr. Rahul Shinde (Trauma Fellow)",
+      "phone": "+91 98201 11223",
+      "status": "Available",
+      "speedKmH": 0,
+      "fuelPercent": 89,
+      "equipment": [
+        "Portable Transport Ventilator",
+        "Biphasic Defibrillator",
+        "Oxygen Station",
+        "Advanced Airway Kit"
+      ],
+      "location": {
+        "name": "Marine Drive Bay",
+        "lat": 18.9438,
+        "lng": 72.8232
+      },
+      "etaMinutes": 5,
+      "assignedSosId": null,
+      "updatedAt": "2026-11-17T05:48:29.190Z"
+    },
+    {
+      "id": "AMB-MUM-02",
+      "regNumber": "MH-02-TC-4402",
+      "city": "Mumbai",
+      "type": "ALS (Advanced Life Support)",
+      "hospitalAffiliation": "Metro Orthopedic & Trauma Centre",
+      "hospitalId": 6,
+      "driver": "Vikram Joshi",
+      "paramedic": "Nurse Swati Sawant",
+      "phone": "+91 98201 33445",
+      "status": "Available",
+      "speedKmH": 0,
+      "fuelPercent": 95,
+      "equipment": [
+        "Spine Immobilizer",
+        "Pneumatic Splints",
+        "Defibrillator",
+        "Ventilator",
+        "Oxygen"
+      ],
+      "location": {
+        "name": "Bandra Kurla Complex (BKC)",
+        "lat": 19.0657,
+        "lng": 72.8687
+      },
+      "etaMinutes": 7,
+      "assignedSosId": null,
+      "updatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "AMB-DEL-01",
+      "regNumber": "DL-01-EM-1122",
+      "city": "Delhi",
+      "type": "ALS (Advanced Life Support)",
+      "hospitalAffiliation": "Sunrise Institute of Medical Sciences",
+      "hospitalId": 3,
+      "driver": "Baljit Singh",
+      "paramedic": "Nurse Gurpreet Kaur",
+      "phone": "+91 98110 55667",
+      "status": "Available",
+      "speedKmH": 0,
+      "fuelPercent": 91,
+      "equipment": [
+        "Ventilator",
+        "Defibrillator",
+        "Oxygen Manifold",
+        "CPR Mechanical Compressor"
+      ],
+      "location": {
+        "name": "Ring Road AIIMS Flyover",
+        "lat": 28.5672,
+        "lng": 77.21
+      },
+      "etaMinutes": 4,
+      "assignedSosId": null,
+      "updatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "AMB-DEL-02",
+      "regNumber": "DL-04-CR-8833",
+      "city": "Delhi",
+      "type": "ALS (Advanced Life Support)",
+      "hospitalAffiliation": "Riverside Cardiac Institute",
+      "hospitalId": 7,
+      "driver": "Manoj Sharma",
+      "paramedic": "Cardiac Tech Deepak Verma",
+      "phone": "+91 98110 77889",
+      "status": "Available",
+      "speedKmH": 0,
+      "fuelPercent": 86,
+      "equipment": [
+        "12-Lead Tele-ECG",
+        "Defibrillator",
+        "External Pacing Unit",
+        "Oxygen Hub"
+      ],
+      "location": {
+        "name": "Connaught Place Outer Circle",
+        "lat": 28.6328,
+        "lng": 77.2197
+      },
+      "etaMinutes": 5,
+      "assignedSosId": null,
+      "updatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "AMB-MAA-01",
+      "regNumber": "TN-01-ER-3344",
+      "city": "Chennai",
+      "type": "ALS (Advanced Life Support)",
+      "hospitalAffiliation": "Harborview Children's Hospital",
+      "hospitalId": 5,
+      "driver": "Karthik Raja",
+      "paramedic": "Pediatric Nurse Lakshmi M.",
+      "phone": "+91 98400 99881",
+      "status": "Available",
+      "speedKmH": 0,
+      "fuelPercent": 94,
+      "equipment": [
+        "Neonatal Transport Incubator",
+        "Pediatric Ventilator",
+        "Pediatric Defibrillator",
+        "Oxygen Flowmeter"
+      ],
+      "location": {
+        "name": "Marina Beach Road",
+        "lat": 13.05,
+        "lng": 80.2824
+      },
+      "etaMinutes": 5,
+      "assignedSosId": null,
+      "updatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "AMB-MAA-02",
+      "regNumber": "TN-09-EM-5511",
+      "city": "Chennai",
+      "type": "ALS (Advanced Life Support)",
+      "hospitalAffiliation": "Everwell Women & Maternity Hospital",
+      "hospitalId": 8,
+      "driver": "Murugan S.",
+      "paramedic": "Midwife & Nurse Revathi R.",
+      "phone": "+91 98400 77662",
+      "status": "Available",
+      "speedKmH": 0,
+      "fuelPercent": 88,
+      "equipment": [
+        "Obstetric Delivery Kit",
+        "Incubator Port",
+        "Fetal Doppler",
+        "Oxygen Cylinder"
+      ],
+      "location": {
+        "name": "Anna Nagar Roundtana",
+        "lat": 13.085,
+        "lng": 80.2101
+      },
+      "etaMinutes": 6,
+      "assignedSosId": null,
+      "updatedAt": "2026-11-17T05:40:34.043Z"
+    }
+  ],
+  "sosRequests": [
+    {
+      "id": "SOS-9821",
+      "reference": "EMERG-9821",
+      "patientName": "Rohan Mehra (Bystander reported)",
+      "phone": "98450 12345",
+      "emergencyType": "Severe Trauma / Accident",
+      "priority": "Code Red",
+      "city": "Bengaluru",
+      "location": {
+        "address": "Outer Ring Road, Marathahalli flyover",
+        "lat": 12.9569,
+        "lng": 77.7011
+      },
+      "triageNotes": "Multi-vehicle collision. Suspected blunt trauma and head injury. Conscious but disoriented.",
+      "status": "En Route",
+      "assignedAmbulanceId": "AMB-BLR-01",
+      "assignedAmbulanceReg": "KA-01-EA-4412",
+      "assignedHospitalId": 1,
+      "assignedHospitalName": "Greenview Multispecialty Hospital",
+      "etaMinutes": 4,
+      "contactPerson": "Arun (Witness)",
+      "createdAt": "2026-11-17T05:32:34.043Z",
+      "updatedAt": "2026-11-17T05:40:34.043Z",
+      "dispatchLog": [
+        {
+          "time": "2026-11-17T05:32:34.043Z",
+          "text": "SOS signal received via 1-click mobile trigger."
+        },
+        {
+          "time": "2026-11-17T05:33:34.043Z",
+          "text": "AI Triage classified as Code Red. Nearest ALS AMB-BLR-01 dispatched."
+        },
+        {
+          "time": "2026-11-17T05:35:34.043Z",
+          "text": "Greenview Level 1 Trauma ER alerted; Trauma Bay #2 reserved."
+        }
+      ]
+    },
+    {
+      "id": "SOS-9819",
+      "reference": "EMERG-9819",
+      "patientName": "Kavita Sundaram",
+      "phone": "98200 45678",
+      "emergencyType": "Cardiac Arrest / Acute Chest Pain",
+      "priority": "Code Red",
+      "city": "Mumbai",
+      "location": {
+        "address": "Marine Drive Promenade, near Nariman Point",
+        "lat": 18.928,
+        "lng": 72.825
+      },
+      "triageNotes": "Crushing retrosternal chest pain, radiating to left arm. Profuse diaphoresis, dyspnea.",
+      "status": "Resolved",
+      "assignedAmbulanceId": "AMB-MUM-01",
+      "assignedAmbulanceReg": "MH-01-CR-9021",
+      "assignedHospitalId": 2,
+      "assignedHospitalName": "St. Anne's Care Centre",
+      "etaMinutes": 3,
+      "contactPerson": "Siddharth (Son)",
+      "createdAt": "2026-11-17T05:25:34.043Z",
+      "updatedAt": "2026-11-17T05:48:29.190Z",
+      "dispatchLog": [
+        {
+          "time": "2026-11-17T05:25:34.043Z",
+          "text": "SOS triggered for acute cardiac crisis."
+        },
+        {
+          "time": "2026-11-17T05:26:34.043Z",
+          "text": "AMB-MUM-01 dispatched with 12-lead ECG telemetry kit."
+        },
+        {
+          "time": "2026-11-17T05:34:34.043Z",
+          "text": "Paramedic arrived on scene; STEMI confirmed, patient boarded and en route."
+        },
+        {
+          "time": "2026-11-17T05:48:29.190Z",
+          "text": "Status updated to \"Resolved\" - Patient successfully admitted and stabilized.."
+        }
+      ]
+    }
+  ],
+  "emergencyServices": [
+    {
+      "id": 1,
+      "hospitalId": 1,
+      "hospitalName": "Greenview Multispecialty Hospital",
+      "city": "Bengaluru",
+      "address": "12 MG Road, Bengaluru",
+      "phone": "080-2244-9911 / 108",
+      "serviceType": "Level 1 Trauma Center & Comprehensive 24/7 ER",
+      "capabilities": [
+        "24/7 ER",
+        "Trauma Bay",
+        "Cardiac Cath Lab",
+        "Emergency Stroke Team",
+        "ICU Beds",
+        "Blood Bank"
+      ],
+      "erCapacity": 24,
+      "erOccupied": 16,
+      "triageQueue": 3,
+      "avgWaitMinutes": 11,
+      "erStatus": "Normal",
+      "ventilatorsAvailable": 5,
+      "icuAvailable": 3,
+      "lastUpdatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": 2,
+      "hospitalId": 2,
+      "hospitalName": "St. Anne's Care Centre",
+      "city": "Mumbai",
+      "address": "45 Marine Road, Mumbai",
+      "phone": "022-2655-4400 / 108",
+      "serviceType": "Emergency & Acute Care Center",
+      "capabilities": [
+        "24/7 ER",
+        "Pediatric ER",
+        "Orthopedic Emergency",
+        "ICU"
+      ],
+      "erCapacity": 18,
+      "erOccupied": 14,
+      "triageQueue": 5,
+      "avgWaitMinutes": 18,
+      "erStatus": "Elevated",
+      "ventilatorsAvailable": 3,
+      "icuAvailable": 1,
+      "lastUpdatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": 3,
+      "hospitalId": 3,
+      "hospitalName": "Sunrise Institute of Medical Sciences",
+      "city": "Delhi",
+      "address": "88 Ring Road, Delhi",
+      "phone": "011-2988-5500 / 108",
+      "serviceType": "Apex Critical Care & Comprehensive Oncology/Trauma",
+      "capabilities": [
+        "Level 1 Trauma",
+        "Comprehensive Stroke Center",
+        "Emergency ICU",
+        "Toxicology Unit"
+      ],
+      "erCapacity": 30,
+      "erOccupied": 27,
+      "triageQueue": 7,
+      "avgWaitMinutes": 28,
+      "erStatus": "Surge",
+      "ventilatorsAvailable": 4,
+      "icuAvailable": 3,
+      "lastUpdatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": 4,
+      "hospitalId": 4,
+      "hospitalName": "Lakeside General Hospital",
+      "city": "Bengaluru",
+      "address": "8 Lake View, Bengaluru",
+      "phone": "080-2566-3322 / 108",
+      "serviceType": "Community Emergency & Acute Maternity Center",
+      "capabilities": [
+        "24/7 ER",
+        "General Resuscitation",
+        "Obstetric Emergency",
+        "Burn Unit"
+      ],
+      "erCapacity": 20,
+      "erOccupied": 10,
+      "triageQueue": 2,
+      "avgWaitMinutes": 8,
+      "erStatus": "Normal",
+      "ventilatorsAvailable": 4,
+      "icuAvailable": 2,
+      "lastUpdatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": 5,
+      "hospitalId": 5,
+      "hospitalName": "Harborview Children's Hospital",
+      "city": "Chennai",
+      "address": "19 Beach Road, Chennai",
+      "phone": "044-2811-9922 / 108",
+      "serviceType": "Dedicated Pediatric & Neonatal Emergency Center",
+      "capabilities": [
+        "Pediatric ER",
+        "NICU / PICU",
+        "Pediatric Trauma",
+        "Poisoning Care"
+      ],
+      "erCapacity": 16,
+      "erOccupied": 9,
+      "triageQueue": 1,
+      "avgWaitMinutes": 7,
+      "erStatus": "Normal",
+      "ventilatorsAvailable": 6,
+      "icuAvailable": 2,
+      "lastUpdatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": 6,
+      "hospitalId": 6,
+      "hospitalName": "Metro Orthopedic & Trauma Centre",
+      "city": "Mumbai",
+      "address": "77 Central Avenue, Mumbai",
+      "phone": "022-2433-8877 / 108",
+      "serviceType": "Major Trauma & Limb Reconstruction Center",
+      "capabilities": [
+        "Trauma Bay",
+        "Emergency OT",
+        "Spinal Cord Injury Unit",
+        "Microsurgery"
+      ],
+      "erCapacity": 22,
+      "erOccupied": 19,
+      "triageQueue": 6,
+      "avgWaitMinutes": 24,
+      "erStatus": "Elevated",
+      "ventilatorsAvailable": 3,
+      "icuAvailable": 1,
+      "lastUpdatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": 7,
+      "hospitalId": 7,
+      "hospitalName": "Riverside Cardiac Institute",
+      "city": "Delhi",
+      "address": "4 Riverside Drive, Delhi",
+      "phone": "011-2677-1122 / 108",
+      "serviceType": "Comprehensive 24/7 Cardiac Emergency & Cath Lab Hub",
+      "capabilities": [
+        "Primary PCI Cath Lab (24/7)",
+        "Cardiac Resuscitation Unit",
+        "CCU / ICU",
+        "ECMO Hub"
+      ],
+      "erCapacity": 18,
+      "erOccupied": 11,
+      "triageQueue": 2,
+      "avgWaitMinutes": 9,
+      "erStatus": "Normal",
+      "ventilatorsAvailable": 7,
+      "icuAvailable": 4,
+      "lastUpdatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": 8,
+      "hospitalId": 8,
+      "hospitalName": "Everwell Women & Maternity Hospital",
+      "city": "Chennai",
+      "address": "21 Anna Nagar, Chennai",
+      "phone": "044-2622-4411 / 108",
+      "serviceType": "High-Risk Obstetric & Maternal Emergency Hospital",
+      "capabilities": [
+        "Maternal Emergency Resuscitation",
+        "Emergency C-Section OT",
+        "Blood Transfusion Port"
+      ],
+      "erCapacity": 14,
+      "erOccupied": 13,
+      "triageQueue": 4,
+      "avgWaitMinutes": 20,
+      "erStatus": "Elevated",
+      "ventilatorsAvailable": 2,
+      "icuAvailable": 0,
+      "lastUpdatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": 9,
+      "hospitalId": 9,
+      "hospitalName": "Pinegrove Oncology Centre",
+      "city": "Bengaluru",
+      "address": "55 Tech Park Road, Bengaluru",
+      "phone": "080-4100-7788 / 108",
+      "serviceType": "Oncology Acute Care & Neutropenic Emergency Unit",
+      "capabilities": [
+        "Emergency Infusion",
+        "Septic Shock Management",
+        "Surgical Resuscitation",
+        "ICU"
+      ],
+      "erCapacity": 16,
+      "erOccupied": 8,
+      "triageQueue": 1,
+      "avgWaitMinutes": 6,
+      "erStatus": "Normal",
+      "ventilatorsAvailable": 4,
+      "icuAvailable": 2,
+      "lastUpdatedAt": "2026-11-17T05:40:34.043Z"
+    }
+  ],
+  "criticalSupplies": [
+    {
+      "id": "SUP-01",
+      "hospitalId": 1,
+      "hospitalName": "Greenview Multispecialty Hospital",
+      "city": "Bengaluru",
+      "item": "Medical Oxygen (Liquid & High-Pressure D Cylinders)",
+      "category": "Respiratory",
+      "available": 3800,
+      "capacity": 5000,
+      "unit": "Liters equivalent",
+      "minThreshold": 1200,
+      "status": "Optimal",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-02",
+      "hospitalId": 1,
+      "hospitalName": "Greenview Multispecialty Hospital",
+      "city": "Bengaluru",
+      "item": "ICU Mechanical Ventilators (Invasive & BiPAP)",
+      "category": "Equipment",
+      "available": 5,
+      "capacity": 12,
+      "unit": "units available",
+      "minThreshold": 2,
+      "status": "Optimal",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-03",
+      "hospitalId": 1,
+      "hospitalName": "Greenview Multispecialty Hospital",
+      "city": "Bengaluru",
+      "item": "Emergency Epinephrine (1mg/mL ampoules)",
+      "category": "Critical Medication",
+      "available": 48,
+      "capacity": 80,
+      "unit": "vials",
+      "minThreshold": 15,
+      "status": "Optimal",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-04",
+      "hospitalId": 4,
+      "hospitalName": "Lakeside General Hospital",
+      "city": "Bengaluru",
+      "item": "Medical Oxygen (Cylinders)",
+      "category": "Respiratory",
+      "available": 420,
+      "capacity": 2500,
+      "unit": "Liters equivalent",
+      "minThreshold": 800,
+      "status": "Critical Shortage",
+      "minDeficit": 380,
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-05",
+      "hospitalId": 4,
+      "hospitalName": "Lakeside General Hospital",
+      "city": "Bengaluru",
+      "item": "Polyvalent Snake Antivenom (Lyophilized)",
+      "category": "Critical Medication",
+      "available": 1,
+      "capacity": 20,
+      "unit": "vials",
+      "minThreshold": 5,
+      "status": "Critical Shortage",
+      "minDeficit": 4,
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-06",
+      "hospitalId": 1,
+      "hospitalName": "Greenview Multispecialty Hospital",
+      "city": "Bengaluru",
+      "item": "Polyvalent Snake Antivenom (Lyophilized)",
+      "category": "Critical Medication",
+      "available": 22,
+      "capacity": 25,
+      "unit": "vials",
+      "minThreshold": 6,
+      "status": "Surplus",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-07",
+      "hospitalId": 2,
+      "hospitalName": "St. Anne's Care Centre",
+      "city": "Mumbai",
+      "item": "Emergency Thrombolytic (Alteplase / Tenecteplase)",
+      "category": "Critical Medication",
+      "available": 2,
+      "capacity": 10,
+      "unit": "vials",
+      "minThreshold": 4,
+      "status": "Critical Shortage",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-08",
+      "hospitalId": 6,
+      "hospitalName": "Metro Orthopedic & Trauma Centre",
+      "city": "Mumbai",
+      "item": "Emergency Thrombolytic (Alteplase / Tenecteplase)",
+      "category": "Critical Medication",
+      "available": 14,
+      "capacity": 15,
+      "unit": "vials",
+      "minThreshold": 4,
+      "status": "Surplus",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-09",
+      "hospitalId": 8,
+      "hospitalName": "Everwell Women & Maternity Hospital",
+      "city": "Chennai",
+      "item": "O-Negative Emergency Universal Red Blood Cells (PRBC)",
+      "category": "Blood & Fluids",
+      "available": 1,
+      "capacity": 10,
+      "unit": "units",
+      "minThreshold": 3,
+      "status": "Critical Shortage",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-10",
+      "hospitalId": 5,
+      "hospitalName": "Harborview Children's Hospital",
+      "city": "Chennai",
+      "item": "O-Negative Emergency Universal Red Blood Cells (PRBC)",
+      "category": "Blood & Fluids",
+      "available": 8,
+      "capacity": 12,
+      "unit": "units",
+      "minThreshold": 3,
+      "status": "Surplus",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-11",
+      "hospitalId": 3,
+      "hospitalName": "Sunrise Institute of Medical Sciences",
+      "city": "Delhi",
+      "item": "Biphasic Defibrillator with Pacing Leads",
+      "category": "Equipment",
+      "available": 2,
+      "capacity": 8,
+      "unit": "units available",
+      "minThreshold": 3,
+      "status": "Critical Shortage",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "SUP-12",
+      "hospitalId": 7,
+      "hospitalName": "Riverside Cardiac Institute",
+      "city": "Delhi",
+      "item": "Biphasic Defibrillator with Pacing Leads",
+      "category": "Equipment",
+      "available": 9,
+      "capacity": 10,
+      "unit": "units available",
+      "minThreshold": 3,
+      "status": "Surplus",
+      "lastUpdated": "2026-11-17T05:40:34.043Z"
+    }
+  ],
+  "patientTransfers": [
+    {
+      "id": "TRF-101",
+      "reference": "REF-TRF-101",
+      "patientName": "Ananya Rao",
+      "age": 54,
+      "gender": "Female",
+      "city": "Bengaluru",
+      "referringHospitalId": 4,
+      "referringHospitalName": "Lakeside General Hospital",
+      "receivingHospitalId": 1,
+      "receivingHospitalName": "Greenview Multispecialty Hospital",
+      "transferReason": "Emergent Coronary Angioplasty / STEMI Cath Lab deficit at origin facility.",
+      "authorizedDoctor": "Dr. M. S. Venkatesh (Reg #KMC-44812)",
+      "clinicalAssessment": "Authorized inter-facility emergency referral: Patient is stabilized with Dual Antiplatelet & Heparin bolus. Requires primary PCI within 90 minutes. Telemetric monitoring mandatory during transfer.",
+      "reservedRoomType": "ICU",
+      "ambulanceAssigned": "AMB-BLR-02",
+      "status": "Ambulance En Route",
+      "urgency": "Emergency (Immediate)",
+      "createdAt": "2026-11-17T05:08:34.043Z",
+      "updatedAt": "2026-11-17T05:40:34.043Z"
+    },
+    {
+      "id": "TRF-102",
+      "reference": "REF-TRF-102",
+      "patientName": "Vikramaditya Sen",
+      "age": 38,
+      "gender": "Male",
+      "city": "Mumbai",
+      "referringHospitalId": 2,
+      "referringHospitalName": "St. Anne's Care Centre",
+      "receivingHospitalId": 6,
+      "receivingHospitalName": "Metro Orthopedic & Trauma Centre",
+      "transferReason": "Complex Pelvic & Femoral Polytrauma requiring specialized limb-salvage surgical team.",
+      "authorizedDoctor": "Dr. F. D’Souza (Reg #MMC-77912)",
+      "clinicalAssessment": "Hemodynamically stabilized with external pelvis binder and 2 units packed RBC. Specialist trauma orthopedic surgery required immediately.",
+      "reservedRoomType": "ICU",
+      "ambulanceAssigned": "AMB-MUM-02",
+      "status": "Approved & Bed Reserved",
+      "urgency": "Urgent (< 2 hours)",
+      "createdAt": "2026-11-17T04:45:34.043Z",
+      "updatedAt": "2026-11-17T05:40:34.043Z"
+    }
+  ],
+  "supplyTransfers": [
+    {
+      "id": "STR-501",
+      "reference": "SUP-TRF-501",
+      "requestingHospitalId": 4,
+      "requestingHospitalName": "Lakeside General Hospital",
+      "supplyingHospitalId": 1,
+      "supplyingHospitalName": "Greenview Multispecialty Hospital",
+      "city": "Bengaluru",
+      "item": "Polyvalent Snake Antivenom (Lyophilized)",
+      "quantity": 5,
+      "unit": "vials",
+      "urgency": "Immediate Emergency",
+      "clinicalReason": "Critical envenomation admitted; local stock depleted to 1 vial.",
+      "status": "In Transit",
+      "courierOrAmbulance": "AMB-BLR-03 (Rapid Logistics)",
+      "createdAt": "2026-11-17T05:18:34.043Z",
+      "dispatchedAt": "2026-11-17T05:30:34.043Z",
+      "deliveredAt": null
+    },
+    {
+      "id": "STR-502",
+      "reference": "SUP-TRF-502",
+      "requestingHospitalId": 8,
+      "requestingHospitalName": "Everwell Women & Maternity Hospital",
+      "supplyingHospitalId": 5,
+      "supplyingHospitalName": "Harborview Children's Hospital",
+      "city": "Chennai",
+      "item": "O-Negative Emergency Universal Red Blood Cells (PRBC)",
+      "quantity": 3,
+      "unit": "units",
+      "urgency": "Critical",
+      "clinicalReason": "Emergency peripartum hemorrhage with uncrossmatched blood needed.",
+      "status": "Approved",
+      "courierOrAmbulance": "Cold-chain Blood Courier TN-01",
+      "createdAt": "2026-11-17T05:00:34.043Z",
+      "dispatchedAt": null,
+      "deliveredAt": null
+    }
+  ]
 }

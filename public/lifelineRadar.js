@@ -41,6 +41,7 @@ function showHome() {
   $('radarView').classList.remove('show');
   if ($('JanvaniView')) $('JanvaniView').classList.remove('show');
   if ($('webInfoView')) $('webInfoView').classList.remove('show');
+  if ($('emergencyView')) $('emergencyView').classList.remove('show');
   renderNav();
   loadHospitals();
 }
@@ -69,6 +70,7 @@ async function showLifeline(tab = 'blood-stock') {
   $('radarView').classList.remove('show');
   if ($('JanvaniView')) $('JanvaniView').classList.remove('show');
   if ($('webInfoView')) $('webInfoView').classList.remove('show');
+  if ($('emergencyView')) $('emergencyView').classList.remove('show');
   $('lifelineView').classList.add('show');
   renderNav();
 
@@ -766,6 +768,7 @@ async function showRadar(region = 'All') {
   $('lifelineView').classList.remove('show');
   if ($('JanvaniView')) $('JanvaniView').classList.remove('show');
   if ($('webInfoView')) $('webInfoView').classList.remove('show');
+  if ($('emergencyView')) $('emergencyView').classList.remove('show');
   $('radarView').classList.add('show');
   renderNav();
 

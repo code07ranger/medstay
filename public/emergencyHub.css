@@ -1,0 +1,508 @@
+/* MedStay Emergency Healthcare Coordination System Styles */
+
+:root {
+  --emerg-red: #d32f2f;
+  --emerg-red-dark: #9a0007;
+  --emerg-red-light: #ffebee;
+  --emerg-amber: #e65100;
+  --emerg-amber-light: #fff3e0;
+  --emerg-green: #1b5e20;
+  --emerg-green-light: #e8f5e9;
+  --emerg-blue: #0d47a1;
+  --emerg-blue-light: #e3f2fd;
+  --emerg-dark: #0f172a;
+  --emerg-card: #ffffff;
+  --emerg-border: #e2e8f0;
+}
+
+/* Nav pulse badge */
+.nav-emergency-btn {
+  background: linear-gradient(135deg, #c62828, #e53935) !important;
+  color: white !important;
+  border-color: #b71c1c !important;
+  position: relative;
+  font-weight: 800 !important;
+  box-shadow: 0 0 12px rgba(229, 57, 53, 0.45);
+  animation: pulse-glow 2s infinite;
+}
+
+@keyframes pulse-glow {
+  0% { box-shadow: 0 0 0 0 rgba(229, 57, 53, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(229, 57, 53, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(229, 57, 53, 0); }
+}
+
+/* Emergency Container */
+.emerg-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0 40px;
+}
+
+/* Emergency Header Banner */
+.emerg-hero {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  color: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  border: 1px solid #334155;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.emerg-hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.emerg-hero h2 {
+  margin: 0 0 6px;
+  font: 700 30px Georgia, serif;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+}
+
+.emerg-live-pill {
+  background: #ef4444;
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 4px 10px;
+  border-radius: 99px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
+}
+
+.emerg-live-dot {
+  width: 7px;
+  height: 7px;
+  background: white;
+  border-radius: 50%;
+  animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+  from { opacity: 0.3; }
+  to { opacity: 1; }
+}
+
+.emerg-hero p {
+  color: #94a3b8;
+  margin: 0 0 18px;
+  max-width: 780px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* Regulatory Medical Compliance Banner */
+.emerg-compliance-banner {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid #475569;
+  border-left: 4px solid #38bdf8;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #cbd5e1;
+  line-height: 1.45;
+  margin-top: 15px;
+}
+
+/* Metric Cards Strip */
+.emerg-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 18px 0 24px;
+}
+
+.emerg-metric-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+  transition: transform 0.15s ease;
+}
+
+.emerg-metric-card:hover {
+  transform: translateY(-2px);
+}
+
+.emerg-metric-label {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emerg-metric-val {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 8px 0 4px;
+  color: var(--emerg-dark);
+}
+
+.emerg-metric-val.red { color: #dc2626; }
+.emerg-metric-val.green { color: #16a34a; }
+.emerg-metric-val.amber { color: #ea580c; }
+.emerg-metric-val.blue { color: #0284c7; }
+
+.emerg-metric-sub {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* Sub-navigation tabs */
+.emerg-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 2px solid var(--line);
+  margin-bottom: 22px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.emerg-tab-btn {
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 11px 16px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--muted);
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.emerg-tab-btn:hover {
+  color: var(--teal);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.emerg-tab-btn.active {
+  color: #b91c1c;
+  border-bottom-color: #b91c1c;
+  background: white;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.03);
+}
+
+/* Quick SOS Initiation Card */
+.sos-box {
+  background: white;
+  border: 2px solid #fecaca;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 4px 20px rgba(239, 68, 68, 0.08);
+  margin-bottom: 24px;
+}
+
+.sos-presets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin: 14px 0 18px;
+}
+
+.sos-preset-btn {
+  border: 1px solid var(--line);
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.sos-preset-btn:hover {
+  background: #fee2e2;
+  border-color: #f87171;
+}
+
+.sos-preset-btn.selected {
+  background: #fef2f2;
+  border-color: #ef4444;
+  box-shadow: 0 0 0 2px #ef4444;
+}
+
+.sos-preset-btn b {
+  display: block;
+  font-size: 13px;
+  color: #1e293b;
+  margin-bottom: 3px;
+}
+
+.sos-preset-btn span {
+  font-size: 11px;
+  color: #64748b;
+  line-height: 1.3;
+  display: block;
+}
+
+/* SOS Progress Tracker */
+.sos-active-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-left: 6px solid #ef4444;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+}
+
+.sos-progress-bar-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+  position: relative;
+}
+
+.sos-progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #94a3b8;
+  z-index: 2;
+  text-align: center;
+}
+
+.sos-step-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #e2e8f0;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.sos-progress-step.completed .sos-step-circle {
+  background: #22c55e;
+  color: white;
+}
+
+.sos-progress-step.active .sos-step-circle {
+  background: #ef4444;
+  color: white;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+  animation: pulse-step 1.5s infinite;
+}
+
+.sos-progress-step.active {
+  color: #ef4444;
+}
+
+@keyframes pulse-step {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.sos-progress-line {
+  position: absolute;
+  top: 14px;
+  left: 30px;
+  right: 30px;
+  height: 3px;
+  background: #e2e8f0;
+  z-index: 1;
+}
+
+.sos-progress-fill {
+  height: 100%;
+  background: #22c55e;
+  transition: width 0.3s ease;
+}
+
+/* Ambulance Cards */
+.amb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.amb-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.amb-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.amb-status-pill {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 4px 9px;
+  border-radius: 99px;
+  text-transform: uppercase;
+}
+
+.amb-avail { background: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; }
+.amb-busy { background: #fee2e2; color: #b91c1c; border: 1px solid #fecaca; }
+.amb-dispatch { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
+
+.telemetry-row {
+  display: flex;
+  gap: 12px;
+  background: #f8fafc;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+/* ER Load status tags */
+.er-status-normal { background: #dcfce7; color: #166534; font-weight: 800; padding: 4px 8px; border-radius: 99px; font-size: 11px; }
+.er-status-elevated { background: #fef3c7; color: #92400e; font-weight: 800; padding: 4px 8px; border-radius: 99px; font-size: 11px; }
+.er-status-surge { background: #fee2e2; color: #991b1b; font-weight: 800; padding: 4px 8px; border-radius: 99px; font-size: 11px; }
+.er-status-divert { background: #1e1b4b; color: #f43f5e; font-weight: 800; padding: 4px 8px; border-radius: 99px; font-size: 11px; border: 1px solid #f43f5e; }
+
+/* Progress bar gauge */
+.gauge-bar {
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 99px;
+  overflow: hidden;
+  margin: 6px 0;
+}
+
+.gauge-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.4s ease;
+}
+
+/* Supply Table */
+.emerg-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.emerg-table th, .emerg-table td {
+  padding: 11px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
+
+.emerg-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.emerg-table tr:hover {
+  background: #f8fafc;
+}
+
+/* AI Recommendation Card */
+.ai-rec-card {
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-left: 5px solid #6366f1;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 10px rgba(99, 102, 241, 0.06);
+}
+
+.ai-rec-card.critical {
+  border-left-color: #ef4444;
+}
+
+.ai-rec-card.high {
+  border-left-color: #f97316;
+}
+
+.ai-rec-badge {
+  background: #e0e7ff;
+  color: #4338ca;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 99px;
+}
+
+.ai-rec-action-box {
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0;
+  font-size: 13px;
+  color: #1e293b;
+  line-height: 1.45;
+}
+
+/* Action button variations */
+.btn.danger-action {
+  background: #dc2626;
+  color: white;
+  border-color: #b91c1c;
+  font-weight: 700;
+}
+
+.btn.danger-action:hover {
+  background: #b91c1c;
+}
+
+.btn.ai-action {
+  background: #4f46e5;
+  color: white;
+  border-color: #4338ca;
+  font-weight: 700;
+}
+
+.btn.ai-action:hover {
+  background: #4338ca;
+}
+
+@media (max-width: 768px) {
+  .emerg-metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+  .sos-presets-grid {
+    grid-template-columns: 1fr;
+  }
+  .sos-progress-bar-wrap {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .sos-progress-line {
+    display: none;
+  }
+}
